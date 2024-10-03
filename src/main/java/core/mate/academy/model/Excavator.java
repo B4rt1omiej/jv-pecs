@@ -15,6 +15,14 @@ public class Excavator extends Machine {
         this.weight = weight;
     }
 
+    public int getWeight() {
+        return weight;
+    }
+
+    public void setWeight(int weight) {
+        this.weight = weight;
+    }
+
     @Override
     public void doWork() {
         System.out.println("Excavator started to work");
